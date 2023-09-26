@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    padding:10px;
+    height: 40px;
+    /* margin: 20px; */
+    background: #cfd8dc; 
+  }
+  nav div {
+    display: flex; 
+  }
