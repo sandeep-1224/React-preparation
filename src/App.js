@@ -1,8 +1,9 @@
-import './App.css';
+import Footer from "./footer/Footer";
+
 function App() {
   return (
     <div>
-      <h1>Hello React</h1>
+      <Footer/>
     </div>
   );
 }
