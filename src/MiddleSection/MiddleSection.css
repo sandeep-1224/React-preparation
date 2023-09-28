@@ -1,0 +1,18 @@
+.Middleparent{
+    width:100%;
+    height: auto;
+   
+    display: flex;
+}
+.leftchild{
+    width: 30%;
+    height: auto;
+}
+.righchild{
+    width:70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+}

@@ -1,11 +1,18 @@
-import './App.css';
-import TopBar from './Topbar/TopBar';
+import "./App.css";
+import TopBar from "./Topbar/TopBar";
+import MiddleSection from "./MiddleSection/MiddleSection";
+import BottomBar from "./Bottombar/BottomBar";
+// import { Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <TopBar/> 
-    </div>
+    <>
+      <TopBar />
+
+      <MiddleSection />
+
+      <BottomBar />
+    </>
   );
 }
 
