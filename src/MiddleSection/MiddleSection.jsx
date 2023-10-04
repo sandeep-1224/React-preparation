@@ -1,7 +1,8 @@
 import React from "react";
 import "./MiddleSection.css";
 import SideBar from "./SideBar";
-import Home from "../pages/Home";
+import SinglePage from "../Routing/SinglePage";
+// import BottomBar from "../Bottombar/BottomBar";
 
 function MiddleSection() {
   return (
@@ -11,9 +12,10 @@ function MiddleSection() {
           <SideBar />
         </div>
         <div className="rightchild">
-          <Home />
+          <SinglePage />
         </div>
       </div>
+      {/* <BottomBar/> */}
     </>
   );
 }

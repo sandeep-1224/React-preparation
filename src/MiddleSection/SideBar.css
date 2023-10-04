@@ -1,20 +1,24 @@
 .sidebar {
-    height: 100%;
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    top: 10%;
-    left: 0;
-    background: #cfd8dc;
-    overflow-x: hidden;
-    padding-top: 16px;
-  }
-  
-   .link {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-    padding:20px;
-  }
+  width: 150px;
+  height: 70vh;
+  top: 10%;
+  left: 0;
+  background: #cfd8dc;
+  /* overflow-x: hidden; */
+  padding-top: 16px;
+}
+.link {
+  /* padding: 6px 8px 6px 16px; */
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  display: block;
+  padding: 20px;
+
+}
+.link:hover{
+  color: #111;
+  transform: scale(1.2);
+  text-shadow: none;
+}
+

@@ -1,15 +1,15 @@
 .Middleparent{
     width:100%;
     height: auto;
-   
     display: flex;
+   
 }
 .leftchild{
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 .righchild{
-    width:70%;
+    width:80%;
     height: auto;
     display: flex;
     justify-content: center;

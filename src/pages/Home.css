@@ -1,0 +1,18 @@
+.grid-home{
+    width:100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+
+}
+.home-para{
+    width:50%;
+    margin: 20px;
+
+}
+.home-img{
+    width:50%;
+}
+.home-img img{
+    width:100%;
+}

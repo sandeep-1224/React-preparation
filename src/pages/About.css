@@ -1,0 +1,29 @@
+h1 {
+  height: auto;
+  width: 645px;
+  text-align: center;
+  margin-top: 40px;
+}
+.grid-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+justify-content: center;
+/* position: relative; */
+
+}
+.grid-para {
+  width: 50%;
+  margin: 20px;
+  height: auto;
+}
+.grid-img {
+  width: 50%;
+  height: auto;
+}
+.grid-img img {
+  position: relative;
+  bottom: 80px;
+  width: 100%;
+  height: auto;
+}
