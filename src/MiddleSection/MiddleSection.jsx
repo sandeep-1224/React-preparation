@@ -15,7 +15,6 @@ function MiddleSection() {
           <SinglePage />
         </div>
       </div>
-      {/* <BottomBar/> */}
     </>
   );
 }

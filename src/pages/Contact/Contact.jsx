@@ -1,17 +1,16 @@
 import React from "react";
-import "./Info.css";
+import "./Contact.css";
 
 function Contact() {
   return (
     <>
-
       <div className="contact-info">
-      <h3>Contact us</h3>
-      <p>
-        Do you have any questions? Please do not hesitate to contact us
-        directly. Our team will come back to you within a matter of hours to
-        help you
-      </p>
+        <h3>Contact us</h3>
+        <p>
+          Do you have any questions? Please do not hesitate to contact us
+          directly. Our team will come back to you within a matter of hours to
+          help you
+        </p>
         <form>
           <label for="fname">First Name</label>
           <input

@@ -3,10 +3,15 @@ nav {
     justify-content:space-between; 
     align-items: center;
     padding:10px;
-    height: 40px;
+    height: 60px;
+    width: 100%;
     /* margin: 20px; */
     background: #cfd8dc; 
+    position: fixed;
   }
   nav div {
     display: flex; 
+  }
+  nav h2{
+    font-size: 20px;
   }

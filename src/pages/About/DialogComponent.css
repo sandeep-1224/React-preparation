@@ -1,0 +1,9 @@
+.blur{
+    backdrop-filter: blur(5px);
+    /* filter: blur(9px) !important; */
+    /* background-color: rgba(17, 17, 105, 0.4); */
+    margin: 20px;
+}
+.close-button{
+    font-size:15px !important;
+}

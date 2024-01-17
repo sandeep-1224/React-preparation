@@ -1,14 +1,17 @@
 .sidebar {
   width: 150px;
-  height: 70vh;
-  top: 10%;
+  height: 100vh;
+  top: 8%;
   left: 0;
   background: #cfd8dc;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   padding-top: 16px;
+  position:fixed;
+  /* position: relative; */
 }
 .link {
   /* padding: 6px 8px 6px 16px; */
+  margin-top: 20px;
   text-decoration: none;
   font-size: 22px;
   color: black;
@@ -20,5 +23,8 @@
   color: #111;
   transform: scale(1.2);
   text-shadow: none;
+  text-decoration: underline;
+  /* height: 1px; */
+  background:aquamarine;
 }
 
